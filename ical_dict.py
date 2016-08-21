@@ -25,8 +25,8 @@ class iCalDict():
     def __init__(self, ics_file, mapping = {}):
         self.__ics_file = ics_file
         self.__mapping = mapping
-        self.content = self.__file_get_contents(self.__ics_file)
-        self.data = None
+        self.content = self.__file_get_contents()
+        self.data = self.__sanitize_data()
 
     ###
     #   convert
@@ -35,12 +35,33 @@ class iCalDict():
     #
     def convert(self):
 
-        self.data = self.__sanitize_data()
-
         self.__validate()
 
-        return self.data
-        # return self.content
+        is_scanning_events = False
+
+        if "BEGIN:VEVENT" not in self.data: raise Exception(self.__error_messages("no_events"))
+
+        metadata = self.data[0 : self.data.index("BEGIN:VEVENT")]
+
+        return self.__array_to_dict(metadata)
+
+    ###
+    #   array_to_dict
+    #
+    #   Given a list of .ics lines, return the list as a Dictionary object.
+    def __array_to_dict(self, data):
+        if not isinstance(data, list): raise Exception("An array is required to convert data to JSON. A non-array parameter has been provided.")
+
+        output = {}
+
+        for line in data:
+            elements = line.split(':')
+
+            if not isinstance(elements, list) and len(elements) is not 2: raise Exception("The following line does not follow expected convention: %s" % line)
+
+            output[elements[0]] = elements[1]
+
+        return output
 
     ###
     #   __file_get_contents
@@ -48,7 +69,7 @@ class iCalDict():
     #   Retrieve the contents of the .ics file as an array,
     #   separated by line.
     #
-    def __file_get_contents(self, content):
+    def __file_get_contents(self):
 
         content = None
 
@@ -88,18 +109,19 @@ class iCalDict():
     def __validate(self):
 
         # If the file does not start with "BEGIN:VCALENDAR".
-        if self.data[0] is not "BEGIN:VCALENDAR":
+        if "BEGIN:VCALENDAR" not in self.data[0]:
             raise Exception(self.__error_messages("invalid_file"))
 
     ###
     #   __error_messages
     #
-    #   Return an error message
+    #   Return an error message given an identifying key.
     #
     def __error_messages(self, key):
 
         messages = {
-            "invalid_file": "This file is invalid. A .ics file is identified as a file in which the first line is \"BEGIN:VCALENDAR\"."
+            "invalid_file": "This file is invalid. A .ics file is identified as a file in which the first line is \"BEGIN:VCALENDAR\".",
+            "no_events":    "No Events, identified by the \"BEGIN:VEVENT\" line, have been found."
         }
 
         if key not in messages: return "An unknown error has occured."
@@ -112,5 +134,4 @@ class iCalDict():
 if __name__ == '__main__':
     # converter = iCalDict('http://25livepub.collegenet.com/calendars/NJIT_EVENTS.ics')
     converter = iCalDict('events.ics')
-    for x in converter.convert():
-        print x
+    print converter.convert()
