@@ -40,14 +40,18 @@ class iCalDict():
 
         if "BEGIN:VEVENT" not in self.data: raise Exception(self.__error_messages("no_events"))
 
-        # TODO: Find a more elegant way to express this. Functional but not efficient.
-        self.data = [value for key, value in enumerate(self.data) if key >= self.data.index("BEGIN:VEVENT")]
-        self.data.reverse()
-        self.data = [value for key, value in enumerate(self.data) if key >= self.data.index("END:VEVENT")]
-        self.data.reverse()
+        # Filter data by eliminating metadata and extraneous lines.
+        self.data = self.data[ self.data.index("BEGIN:VEVENT") : len(self.data) -  self.data[::-1].index("END:VEVENT") ]
 
-        # TODO: Iterate over and then remove every event. Output is a proof of concept.
-        return self.__array_to_dict(self.data[0 : self.data.index("END:VEVENT") + 1])
+        output = []
+
+        # Continue to iterate over the events and convert each event block to a Dictionary.
+        # Filter this data out of data and continue. 
+        while len(self.data) > 0:
+            output.append(self.__array_to_dict(self.data[ 0 : self.data.index("END:VEVENT") + 1 ]))
+            self.data = [value for key, value in enumerate(self.data) if key > self.data.index("END:VEVENT")]
+
+        return output
 
     ###
     #   array_to_dict
