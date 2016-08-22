@@ -35,29 +35,40 @@ class iCalDict():
     #
     def convert(self):
 
+        # Confirm that all incoming data is valid, namely the file itself.
         self.__validate()
-
-        is_scanning_events = False
 
         if "BEGIN:VEVENT" not in self.data: raise Exception(self.__error_messages("no_events"))
 
-        metadata = self.data[0 : self.data.index("BEGIN:VEVENT")]
+        # TODO: Find a more elegant way to express this. Functional but not efficient.
+        self.data = [value for key, value in enumerate(self.data) if key >= self.data.index("BEGIN:VEVENT")]
+        self.data.reverse()
+        self.data = [value for key, value in enumerate(self.data) if key >= self.data.index("END:VEVENT")]
+        self.data.reverse()
 
-        return self.__array_to_dict(metadata)
+        # TODO: Iterate over and then remove every event. Output is a proof of concept.
+        return self.__array_to_dict(self.data[0 : self.data.index("END:VEVENT") + 1])
 
     ###
     #   array_to_dict
     #
     #   Given a list of .ics lines, return the list as a Dictionary object.
+    #
     def __array_to_dict(self, data):
+
         if not isinstance(data, list): raise Exception("An array is required to convert data to JSON. A non-array parameter has been provided.")
 
         output = {}
 
         for line in data:
+
             elements = line.split(':')
 
             if not isinstance(elements, list) and len(elements) is not 2: raise Exception("The following line does not follow expected convention: %s" % line)
+
+            if elements[0] in output:
+                # TODO: A key already exists in the output, this would overwrite. Handle.
+                pass
 
             output[elements[0]] = elements[1]
 
