@@ -1,7 +1,24 @@
-# ical-dict
+# ical_dict
 
-iCalDict is a Python library that converts an iCalendar file (.ics) into a Dictionary object in Python.
+iCalDict is a Python library that converts a Calendar file (.ics) into a Dictionary object in Python.
 
-One of the unique features of this library is that it also allows a client to pass a simple dictionary which converts all of the iCalendar keys into keys that the client is interested in using instead.
+### Usage
 
-An example output for `events.ics` is available in `events.json`.
+```python
+# Local File
+converter = iCalDict('events.ics')
+print json.dumps(converter.convert())
+
+# URL
+converter = iCalDict('http://25livepub.collegenet.com/calendars/NJIT_EVENTS.ics')
+print json.dumps(converter.convert())
+```
+
+### Example
+The examples in the Usage section refer to the `events.ics` file in this repository. A sample output in JSON format is available in the `events.json` file in this repository. 
+
+### TODO
+All open items will be tracked via Issues. Have an enhancement idea, recognize a bug or want to contribute? Check out all of the Open Issues!
+
+### LICENSE
+MIT License

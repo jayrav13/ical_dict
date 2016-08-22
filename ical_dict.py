@@ -8,7 +8,6 @@ import os
 import urllib2
 import json
 
-
 ###
 #   class iCalDict
 #
@@ -52,7 +51,7 @@ class iCalDict():
             output.append(self.__array_to_dict(self.data[ 0 : self.data.index("END:VEVENT") + 1 ]))
             self.data = [value for key, value in enumerate(self.data) if key > self.data.index("END:VEVENT")]
 
-        return json.dumps(output)
+        return output
 
     ###
     #   array_to_dict
@@ -150,4 +149,4 @@ class iCalDict():
 if __name__ == '__main__':
     # converter = iCalDict('http://25livepub.collegenet.com/calendars/NJIT_EVENTS.ics')
     converter = iCalDict('events.ics')
-    print converter.convert()
+    print json.dumps(converter.convert())
