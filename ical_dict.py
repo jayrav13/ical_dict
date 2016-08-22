@@ -6,6 +6,7 @@
 import sys
 import os
 import urllib2
+import json
 
 
 ###
@@ -51,7 +52,7 @@ class iCalDict():
             output.append(self.__array_to_dict(self.data[ 0 : self.data.index("END:VEVENT") + 1 ]))
             self.data = [value for key, value in enumerate(self.data) if key > self.data.index("END:VEVENT")]
 
-        return output
+        return json.dumps(output)
 
     ###
     #   array_to_dict
