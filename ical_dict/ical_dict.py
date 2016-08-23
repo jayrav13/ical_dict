@@ -54,13 +54,13 @@ class iCalDict():
         return output
 
     ###
-    #   array_to_dict
+    #   __array_to_dict
     #
     #   Given a list of .ics lines, return the list as a Dictionary object.
     #
     def __array_to_dict(self, data):
 
-        if not isinstance(data, list): raise Exception("An array is required to convert data to JSON. A non-array parameter has been provided.")
+        if not isinstance(data, list): raise Exception(self.__error_messages("array_required"))
 
         output = {}
 
@@ -68,7 +68,7 @@ class iCalDict():
 
             elements = line.split(':')
 
-            if not isinstance(elements, list) and len(elements) is not 2: raise Exception("The following line does not follow expected convention: %s" % line)
+            if not isinstance(elements, list) and len(elements) is not 2: raise Exception("%s: %s" % self.__error_messages("invalid_element"), line)
 
             if elements[0] in output:
                 # TODO: A key already exists in the output, this would overwrite. Handle.
@@ -135,8 +135,10 @@ class iCalDict():
     def __error_messages(self, key):
 
         messages = {
-            "invalid_file": "This file is invalid. A .ics file is identified as a file in which the first line is \"BEGIN:VCALENDAR\".",
-            "no_events":    "No Events, identified by the \"BEGIN:VEVENT\" line, have been found."
+            "invalid_file":     "This file is invalid. A .ics file is identified as a file in which the first line is \"BEGIN:VCALENDAR\".",
+            "no_events":        "No Events, identified by the \"BEGIN:VEVENT\" line, have been found.",
+            "array_required":   "An array is required to convert data to JSON. A non-array parameter has been provided.",
+            "invalid_element":  "The following line does not follow expected convention"
         }
 
         if key not in messages: return "An unknown error has occured."
