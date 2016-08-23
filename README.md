@@ -5,6 +5,9 @@ iCalDict is a Python library that converts a Calendar file (.ics) into a Diction
 ### Usage
 
 ```python
+# Import Library
+from ical_dict import iCalDict
+
 # Local File
 converter = iCalDict('events.ics')
 print json.dumps(converter.convert())
