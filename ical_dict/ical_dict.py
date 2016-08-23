@@ -78,7 +78,7 @@ class iCalDict():
 
         for line in data:
 
-            elements = line.split(':')
+            elements = line.split(':', 1)
 
             if not isinstance(elements, list) and len(elements) is not 2: raise Exception("%s: %s" % self.__error_messages("invalid_element"), line)
 
