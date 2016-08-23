@@ -166,21 +166,21 @@ X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d195612406
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Womens Soccer  vs  Hartford
-LOCATION:Lubetkin Field
-DTSTART;TZID=America/New_York:20160822T160000
-DTEND;TZID=America/New_York:20160822T190000
+SUMMARY:Womens Soccer  vs  Hartford (at Fairleigh Dickinson)
+LOCATION:Away Game
+DTSTART;TZID=America/New_York:20160822T150000
+DTEND;TZID=America/New_York:20160822T180000
 X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
 X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Athletics
 X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:SideArmSp
  orts Game ID 5351
 X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Athleti
  cs Department
-DTSTAMP:20160722T012023Z
+DTSTAMP:20160822T010021Z
 CATEGORIES:Athletics
-UID:http://uid.trumba.com/event/198154636
+UID:http://uid.trumba.com/event/201737597
 X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
- ent%26eventid%3d198154636
+ ent%26eventid%3d201737597
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Career Services
@@ -344,6 +344,23 @@ X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d187709118
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:CCO Planning Meeting
+LOCATION:Campus Center Conference Room 235
+DTSTART;TZID=America/New_York:20160823T110000
+DTEND;TZID=America/New_York:20160823T130000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Meeting\, Forum
+X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Campus 
+ Center Operations
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:CCO Plann
+ ing Meeting
+DTSTAMP:20160822T102009Z
+CATEGORIES:Meeting, Forum
+UID:http://uid.trumba.com/event/201774825
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d201774825
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Lab Safety Training
 LOCATION:Kupfrian Smartcart Classroom 207
 DTSTART;TZID=America/New_York:20160823T140000
@@ -411,6 +428,27 @@ CATEGORIES:Lecture, Seminar, Workshop
 UID:http://uid.trumba.com/event/191180573
 X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d191180573
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mascot Room
+LOCATION:Campus Center Conference Room 215
+DTSTART;TZID=America/New_York:20160824T083000
+DTEND;TZID=America/New_York:20160824T123000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Athletics
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:Mascot Ro
+ om
+X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Athleti
+ cs Department
+X-TRUMBA-CUSTOMFIELD;NAME="Submitter Name";ID=36;TYPE=SingleLine:Caden\,
+  Courtney
+DTSTAMP:20160822T140013Z
+DESCRIPTION:<p>Room for Highlander mascot to change and take breaks duri
+ ng the DASSA Fall 2016 Kickoff</p>
+CATEGORIES:Athletics
+UID:http://uid.trumba.com/event/201807128
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d201807128
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Career Services
@@ -532,6 +570,39 @@ CATEGORIES:Lecture, Seminar, Workshop
 UID:http://uid.trumba.com/event/199840856
 X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d199840856
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AVP interviews
+LOCATION:Campus Center Conference Room 230
+DTSTART;TZID=America/New_York:20160824T100000
+DTEND;TZID=America/New_York:20160824T133000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Meeting\, Forum
+X-TRUMBA-CUSTOMFIELD;NAME="Submitter Name";ID=36;TYPE=SingleLine:Bowens
+ \, Barbara
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:AVP inter
+ views
+DTSTAMP:20160822T130012Z
+CATEGORIES:Meeting, Forum
+UID:http://uid.trumba.com/event/201795766
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d201795766
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AFSCME Meeting
+LOCATION:GITC Lecture Style Room 3710
+DTSTART;TZID=America/New_York:20160824T110000
+DTEND;TZID=America/New_York:20160824T120000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Lecture\, Semin
+ ar\, Workshop
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:AFSCME Me
+ eting
+DTSTAMP:20160822T134013Z
+CATEGORIES:Lecture, Seminar, Workshop
+UID:http://uid.trumba.com/event/201801187
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d201801187
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Office of Global Initiatives- Ambassadors Meeting
@@ -674,6 +745,42 @@ CATEGORIES:Lecture, Seminar, Workshop
 UID:http://uid.trumba.com/event/192868980
 X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d192868980
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TA Workshop:  Debates
+LOCATION:Kupfrian Smartcart Classroom 204
+DTSTART;TZID=America/New_York:20160825T093000
+DTEND;TZID=America/New_York:20160825T123000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Lecture\, Semin
+ ar\, Workshop
+X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Humanit
+ ies
+X-TRUMBA-CUSTOMFIELD;NAME="Submitter Name";ID=36;TYPE=SingleLine:Bodner
+ \, Janet
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:TA Worksh
+ op: Debates
+DTSTAMP:20160822T094012Z
+DESCRIPTION:<p>TA workshop: &#160\;Debate exercise</p>
+CATEGORIES:Lecture, Seminar, Workshop
+UID:http://uid.trumba.com/event/201771785
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d201771785
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:J. Bodner
+LOCATION:GITC Lecture Hall 1100
+DTSTART;TZID=America/New_York:20160825T100000
+DTEND;TZID=America/New_York:20160825T123000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Lecture\, Semin
+ ar\, Workshop
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:J. Bodner
+DTSTAMP:20160822T112014Z
+CATEGORIES:Lecture, Seminar, Workshop
+UID:http://uid.trumba.com/event/201779528
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d201779528
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:TA Workshop
@@ -839,25 +946,6 @@ X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RLD 2016
-LOCATION:CTR Campus Center Atrium
-DTSTART;TZID=America/New_York:20160826T090000
-DTEND;TZID=America/New_York:20160826T180000
-X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
-X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Lecture\, Semin
- ar\, Workshop
-X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Residen
- ce Life
-X-TRUMBA-CUSTOMFIELD;NAME="Submitter Name";ID=36;TYPE=SingleLine:Chandra
- \, Komal
-X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:RLD 2016
-DTSTAMP:20160713T090013Z
-CATEGORIES:Lecture, Seminar, Workshop
-UID:http://uid.trumba.com/event/197441596
-X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
- ent%26eventid%3d197441596
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:RLD 2016
 LOCATION:Kupfrian Smartcart Lecture Hall 117
 DTSTART;TZID=America/New_York:20160826T090000
 DTEND;TZID=America/New_York:20160826T180000
@@ -893,6 +981,25 @@ CATEGORIES:Lecture, Seminar, Workshop
 UID:http://uid.trumba.com/event/197441601
 X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d197441601
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RLD 2016
+LOCATION:CTR Campus Center Atrium
+DTSTART;TZID=America/New_York:20160826T090000
+DTEND;TZID=America/New_York:20160826T180000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Lecture\, Semin
+ ar\, Workshop
+X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Residen
+ ce Life
+X-TRUMBA-CUSTOMFIELD;NAME="Submitter Name";ID=36;TYPE=SingleLine:Chandra
+ \, Komal
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:RLD 2016
+DTSTAMP:20160713T090013Z
+CATEGORIES:Lecture, Seminar, Workshop
+UID:http://uid.trumba.com/event/197441596
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d197441596
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Office of Global Initiatives
@@ -1595,27 +1702,6 @@ X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IS Placement Exam
-LOCATION:Stabile Lab
-DTSTART;TZID=America/New_York:20160829T170000
-DTEND;TZID=America/New_York:20160829T210000
-X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
-X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Exam (Non-Acade
- mic)
-X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:MY DEPA
- RTMENT
-X-TRUMBA-CUSTOMFIELD;NAME="Submitter Name";ID=36;TYPE=SingleLine:Lundber
- g\, Patricia
-X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:IS Placem
- ent Exam
-DTSTAMP:20160427T162010Z
-DESCRIPTION:IS Placement Exam
-CATEGORIES:Exams (Non-Academic)
-UID:http://uid.trumba.com/event/192188277
-X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
- ent%26eventid%3d192188277
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:IS Placement Exam
 LOCATION:GITC Computer Lab 2302
 DTSTART;TZID=America/New_York:20160829T170000
 DTEND;TZID=America/New_York:20160829T210000
@@ -1634,6 +1720,27 @@ CATEGORIES:Exams (Non-Academic)
 UID:http://uid.trumba.com/event/192188276
 X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d192188276
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IS Placement Exam
+LOCATION:Stabile Lab
+DTSTART;TZID=America/New_York:20160829T170000
+DTEND;TZID=America/New_York:20160829T210000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Exam (Non-Acade
+ mic)
+X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:MY DEPA
+ RTMENT
+X-TRUMBA-CUSTOMFIELD;NAME="Submitter Name";ID=36;TYPE=SingleLine:Lundber
+ g\, Patricia
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:IS Placem
+ ent Exam
+DTSTAMP:20160427T162010Z
+DESCRIPTION:IS Placement Exam
+CATEGORIES:Exams (Non-Academic)
+UID:http://uid.trumba.com/event/192188277
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d192188277
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Honors College
@@ -1723,6 +1830,27 @@ X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d196923110
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:New Student Orientation
+LOCATION:Kupfrian Smartcart Lecture Hall 210\, Kupfrian Smartcart Lectur
+ e Hall 211
+DTSTART;TZID=America/New_York:20160830T080000
+DTEND;TZID=America/New_York:20160830T190000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Meeting\, Forum
+X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Center 
+ for Student Success
+X-TRUMBA-CUSTOMFIELD;NAME="Submitter Name";ID=36;TYPE=SingleLine:Pedraza
+ \, Leo
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:New Stude
+ nt Orientation
+DTSTAMP:20160822T130012Z
+DESCRIPTION:<p>Orientation for incoming freshmen</p>
+CATEGORIES:Meeting, Forum
+UID:http://uid.trumba.com/event/201773551
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d201773551
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:New Student Orientation 1.0
 LOCATION:Kupfrian Theatre Lobby\, Jim Wise Theatre\, Kupfrian Hall Green
 DTSTART;TZID=America/New_York:20160830T083000
@@ -1796,6 +1924,27 @@ CATEGORIES:Lecture, Seminar, Workshop
 UID:http://uid.trumba.com/event/194103337
 X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d194103337
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Family Orientation
+LOCATION:Kupfrian Smartcart Classroom 106\, Kupfrian Smartcart Lecture H
+ all 117\, Kupfrian Smartcart Lecture Hall 118
+DTSTART;TZID=America/New_York:20160830T093000
+DTEND;TZID=America/New_York:20160830T190000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Meeting\, Forum
+X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Center 
+ for Student Success
+X-TRUMBA-CUSTOMFIELD;NAME="Submitter Name";ID=36;TYPE=SingleLine:Pedraza
+ \, Leo
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:Family Or
+ ientation
+DTSTAMP:20160822T142016Z
+DESCRIPTION:<p>Orientation for Family members of New Students</p>
+CATEGORIES:Meeting, Forum
+UID:http://uid.trumba.com/event/201852919
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d201852919
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NJEDge.Net Senior Staff Meeting
@@ -1895,6 +2044,25 @@ CATEGORIES:Reception, Banquet, Party
 UID:http://uid.trumba.com/event/195661894
 X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d195661894
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Move-In Volunteer Check-In
+LOCATION:Campus Center Conference Room 235\, Campus Center Conference Ro
+ om 240
+DTSTART;TZID=America/New_York:20160831T080000
+DTEND;TZID=America/New_York:20160831T170000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Lecture\, Semin
+ ar\, Workshop
+X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Campus 
+ Life
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:Move-In V
+ olunteer Check-In
+DTSTAMP:20160822T110011Z
+CATEGORIES:Lecture, Seminar, Workshop
+UID:http://uid.trumba.com/event/201776254
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d201776254
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Student Orientation
@@ -2216,6 +2384,24 @@ X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d198822010
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Greek Life Planning Meeting
+LOCATION:Kupfrian Smartcart Classroom 205
+DTSTART;TZID=America/New_York:20160901T150000
+DTEND;TZID=America/New_York:20160901T170000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Lecture\, Semin
+ ar\, Workshop
+X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Greek L
+ ife and Wellness
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:Greek Lif
+ e Planning Meeting
+DTSTAMP:20160822T164012Z
+CATEGORIES:Lecture, Seminar, Workshop
+UID:http://uid.trumba.com/event/201910792
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d201910792
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:New Student Orientation 2.0
 LOCATION:Campus Center Ballroom "A"\, Campus Center Ballroom "B"\, Campu
  s Center East Plaza Outside\, Campus Center Gallery\, Campus Center Gall
@@ -2375,6 +2561,26 @@ CATEGORIES:Athletics
 UID:http://uid.trumba.com/event/198633051
 X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d198633051
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Conference Services Gameroom Rental
+LOCATION:Campus Center Gameroom
+DTSTART;TZID=America/New_York:20160903T140000
+DTEND;TZID=America/New_York:20160903T180000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Lecture\, Semin
+ ar\, Workshop
+X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Confere
+ nce Services
+X-TRUMBA-CUSTOMFIELD;NAME="Submitter Name";ID=36;TYPE=SingleLine:Wilson
+ \, Doneita
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:Conferenc
+ e Services Gameroom Rental
+DTSTAMP:20160822T172013Z
+CATEGORIES:Lecture, Seminar, Workshop
+UID:http://uid.trumba.com/event/201921411
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d201921411
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Womens Volleyball at  St. Francis Brooklyn
@@ -2555,21 +2761,21 @@ X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SAC Laser Tag Event
-LOCATION:Campus Center Ballroom "A"
-DTSTART;TZID=America/New_York:20160906T140000
+LOCATION:Campus Center West Plaza Outside\, GREEN
+DTSTART;TZID=America/New_York:20160906T133000
 DTEND;TZID=America/New_York:20160906T180000
 X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
-X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Intramurals &am
- p\; Recreation
-X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:SAC Laser
-  Tag Event
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Reception\, Ban
+ quet\, Party
 X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Student
   Activities Council
-DTSTAMP:20160808T162013Z
-CATEGORIES:Intramurals &amp; Recreation
-UID:http://uid.trumba.com/event/199220773
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:SAC Laser
+  Tag Event
+DTSTAMP:20160822T100012Z
+CATEGORIES:Reception, Banquet, Party
+UID:http://uid.trumba.com/event/201773553
 X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
- ent%26eventid%3d199220773
+ ent%26eventid%3d201773553
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Diversity Committee Meeting
@@ -2743,6 +2949,25 @@ CATEGORIES:Lecture, Seminar, Workshop
 UID:http://uid.trumba.com/event/198169711
 X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d198169711
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WiCS September Meetings
+LOCATION:GITC Lecture Style Room 3710
+DTSTART;TZID=America/New_York:20160907T143000
+DTEND;TZID=America/New_York:20160907T153000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Meeting\, Forum
+X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Compute
+ r Science
+X-TRUMBA-CUSTOMFIELD;NAME="Submitter Name";ID=36;TYPE=SingleLine:Butler
+ \, Angel
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:WiCS Sept
+ ember Meetings
+DTSTAMP:20160822T142016Z
+CATEGORIES:Meeting, Forum
+UID:http://uid.trumba.com/event/201852916
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d201852916
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NCE Board of Visitors Meeting
@@ -3230,6 +3455,25 @@ CATEGORIES:Lecture, Seminar, Workshop
 UID:http://uid.trumba.com/event/200087426
 X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d200087426
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WiCS First September Meeting
+LOCATION:GITC Lecture Style Room 3710
+DTSTART;TZID=America/New_York:20160909T120000
+DTEND;TZID=America/New_York:20160909T130000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Meeting\, Forum
+X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Compute
+ r Science
+X-TRUMBA-CUSTOMFIELD;NAME="Submitter Name";ID=36;TYPE=SingleLine:Butler
+ \, Angel
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:WiCS Firs
+ t September Meeting
+DTSTAMP:20160822T142016Z
+CATEGORIES:Meeting, Forum
+UID:http://uid.trumba.com/event/201852917
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d201852917
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mens Soccer at  Niagara
@@ -4018,31 +4262,6 @@ X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:On Campus Interviews (OCI) Workshop
-LOCATION:Campus Center Conference Room 240
-DTSTART;TZID=America/New_York:20160914T150000
-DTEND;TZID=America/New_York:20160914T160000
-X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
-X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Lecture\, Semin
- ar\, Workshop
-X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Career 
- Services
-X-TRUMBA-CUSTOMFIELD;NAME="Submitter Name";ID=36;TYPE=SingleLine:Washing
- ton\, Clarice
-X-TRUMBA-CUSTOMFIELD;NAME="Web Site";ID=5331;TYPE=SingleLine:http://www.
- njit.edu/cds/students/workshops/index.php
-X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:On Campus
-  Interviews (OCI) Workshop
-DTSTAMP:20160722T110019Z
-DESCRIPTION:Learn the steps necessary to interview with recruiters comin
- g on campus this spring. Familiarize yourself with the latest job search
-  and networking tools for access to career opportunities.
-CATEGORIES:Lecture, Seminar, Workshop
-UID:http://uid.trumba.com/event/198169701
-X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
- ent%26eventid%3d198169701
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:On Campus Interviews (OCI) Workshop
 LOCATION:GITC Lecture Style Room 3710
 DTSTART;TZID=America/New_York:20160914T150000
 DTEND;TZID=America/New_York:20160914T160000
@@ -4065,6 +4284,31 @@ CATEGORIES:Lecture, Seminar, Workshop
 UID:http://uid.trumba.com/event/199752964
 X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d199752964
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:On Campus Interviews (OCI) Workshop
+LOCATION:Campus Center Conference Room 240
+DTSTART;TZID=America/New_York:20160914T150000
+DTEND;TZID=America/New_York:20160914T160000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Lecture\, Semin
+ ar\, Workshop
+X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Career 
+ Services
+X-TRUMBA-CUSTOMFIELD;NAME="Submitter Name";ID=36;TYPE=SingleLine:Washing
+ ton\, Clarice
+X-TRUMBA-CUSTOMFIELD;NAME="Web Site";ID=5331;TYPE=SingleLine:http://www.
+ njit.edu/cds/students/workshops/index.php
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:On Campus
+  Interviews (OCI) Workshop
+DTSTAMP:20160722T110019Z
+DESCRIPTION:Learn the steps necessary to interview with recruiters comin
+ g on campus this spring. Familiarize yourself with the latest job search
+  and networking tools for access to career opportunities.
+CATEGORIES:Lecture, Seminar, Workshop
+UID:http://uid.trumba.com/event/198169701
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d198169701
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Panhellenic Meeting
@@ -4498,27 +4742,6 @@ X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d198446485
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Hispanic Heritage Month Opening Ceremony
-LOCATION:Campus Center Ballroom "A"\, Campus Center Ballroom "B"\, Campu
- s Center West Plaza Outside\, GREEN\, GREEN
-DTSTART;TZID=America/New_York:20160916T113000
-DTEND;TZID=America/New_York:20160916T130000
-X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
-X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Lecture\, Semin
- ar\, Workshop
-X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Diversi
- ty Programs
-X-TRUMBA-CUSTOMFIELD;NAME="Submitter Name";ID=36;TYPE=SingleLine:Ayala\,
-  Sherlene
-X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:Hispanic 
- Heritage Month Opening Ceremony
-DTSTAMP:20160802T102012Z
-CATEGORIES:Lecture, Seminar, Workshop
-UID:http://uid.trumba.com/event/191180574
-X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
- ent%26eventid%3d191180574
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:IFSC Weekly Council Meeting
 LOCATION:Campus Center Conference Room 225
 DTSTART;TZID=America/New_York:20160916T113000
@@ -4677,6 +4900,42 @@ CATEGORIES:Lecture, Seminar, Workshop
 UID:http://uid.trumba.com/event/200087427
 X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d200087427
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LGBTQ History Month Comm. Meeting
+LOCATION:CTR 485
+DTSTART;TZID=America/New_York:20160916T120000
+DTEND;TZID=America/New_York:20160916T130000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Meeting\, Forum
+X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Leaders
+ hip And Diversity Program
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:LGBTQ His
+ tory Month Comm. Meeting
+DTSTAMP:20160822T104011Z
+CATEGORIES:Meeting, Forum
+UID:http://uid.trumba.com/event/201775113
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d201775113
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WiCS First September Meeting
+LOCATION:GITC Lecture Style Room 3710
+DTSTART;TZID=America/New_York:20160916T120000
+DTEND;TZID=America/New_York:20160916T130000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Meeting\, Forum
+X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Compute
+ r Science
+X-TRUMBA-CUSTOMFIELD;NAME="Submitter Name";ID=36;TYPE=SingleLine:Butler
+ \, Angel
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:WiCS Firs
+ t September Meeting
+DTSTAMP:20160822T142016Z
+CATEGORIES:Meeting, Forum
+UID:http://uid.trumba.com/event/201852918
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d201852918
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GSA Fresher's Party
@@ -4994,6 +5253,27 @@ X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d197615825
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Tabling
+LOCATION:Campus Center  Lobby
+DTSTART;TZID=America/New_York:20160919T110000
+DTEND;TZID=America/New_York:20160919T140000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Other
+X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Center 
+ for Student Involvement
+X-TRUMBA-CUSTOMFIELD;NAME="Submitter Name";ID=36;TYPE=SingleLine:Ayala\,
+  Sherlene
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:Constitut
+ ion day table
+DTSTAMP:20160822T100011Z
+DESCRIPTION:<p>Please stop by our table and take a quiz to see how much 
+ you know about the US Constitution.&#160\;</p>
+CATEGORIES:Other
+UID:http://uid.trumba.com/event/201773552
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d201773552
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Yoga
 LOCATION:Meditation Center- B 90
 DTSTART;TZID=America/New_York:20160919T130000
@@ -5033,6 +5313,30 @@ CATEGORIES:Other
 UID:http://uid.trumba.com/event/195543471
 X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d195543471
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Merck Information Session
+LOCATION:GITC Lecture Style Room 3710
+DTSTART;TZID=America/New_York:20160919T160000
+DTEND;TZID=America/New_York:20160919T173000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Lecture\, Semin
+ ar\, Workshop
+X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Career 
+ Services
+X-TRUMBA-CUSTOMFIELD;NAME="Submitter Name";ID=36;TYPE=SingleLine:Washing
+ ton\, Clarice
+X-TRUMBA-CUSTOMFIELD;NAME="Web Site";ID=5331;TYPE=SingleLine:http://www5
+ .njit.edu/cds/students/ocr/ocrinfo.php
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:Merck Inf
+ ormation Session
+DTSTAMP:20160822T170013Z
+DESCRIPTION:<p>Learn more about Engineering career and internship opport
+ unities with Merck.</p>
+CATEGORIES:Lecture, Seminar, Workshop
+UID:http://uid.trumba.com/event/201919365
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d201919365
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CPH Cupcakes & Conversations
@@ -5294,6 +5598,25 @@ X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d192467857
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:NJIT Public Safety Welcome Back Event
+LOCATION:Campus Center West Plaza Outside\, GREEN\, GREEN\, Campus Cente
+ r  Lobby
+DTSTART;TZID=America/New_York:20160921T120000
+DTEND;TZID=America/New_York:20160921T170000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Intramurals &am
+ p\; Recreation
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:NJIT Publ
+ ic Safety Welcome Back Event
+X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Public 
+ Safety
+DTSTAMP:20160822T110015Z
+CATEGORIES:Intramurals &amp; Recreation
+UID:http://uid.trumba.com/event/201776259
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d201776259
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Lunch for Dr. Xanthos Memorial Lecture
 LOCATION:Eberhardt Hall South Lounge
 DTSTART;TZID=America/New_York:20160921T120000
@@ -5379,6 +5702,23 @@ CATEGORIES:Lecture, Seminar, Workshop
 UID:http://uid.trumba.com/event/194574902
 X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d194574902
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LGBTQ History Month Comm. Meeting
+LOCATION:CTR 485
+DTSTART;TZID=America/New_York:20160921T160000
+DTEND;TZID=America/New_York:20160921T180000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Meeting\, Forum
+X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Leaders
+ hip And Diversity Program
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:LGBTQ His
+ tory Month Comm. Meeting
+DTSTAMP:20160822T104011Z
+CATEGORIES:Meeting, Forum
+UID:http://uid.trumba.com/event/201775114
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d201775114
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Alumni Board Meeting
@@ -5476,6 +5816,24 @@ CATEGORIES:Meeting, Forum
 UID:http://uid.trumba.com/event/199306448
 X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d199306448
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FYS Presentation
+LOCATION:Campus Center Ballroom "B"
+DTSTART;TZID=America/New_York:20160922T100000
+DTEND;TZID=America/New_York:20160922T140000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Lecture\, Semin
+ ar\, Workshop
+X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Dean of
+  Students
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:FYS Prese
+ ntation
+DTSTAMP:20160822T130015Z
+CATEGORIES:Lecture, Seminar, Workshop
+UID:http://uid.trumba.com/event/201795767
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d201795767
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Resumania
@@ -5717,6 +6075,26 @@ X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d198791614
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Hispanic Heritage Month Opening Ceremony
+LOCATION:Campus Center West Plaza Outside\, GREEN\, GREEN
+DTSTART;TZID=America/New_York:20160923T113000
+DTEND;TZID=America/New_York:20160923T130000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Lecture\, Semin
+ ar\, Workshop
+X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Diversi
+ ty Programs
+X-TRUMBA-CUSTOMFIELD;NAME="Submitter Name";ID=36;TYPE=SingleLine:Ayala\,
+  Sherlene
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:Hispanic 
+ Heritage Month Opening Ceremony
+DTSTAMP:20160822T102016Z
+CATEGORIES:Lecture, Seminar, Workshop
+UID:http://uid.trumba.com/event/201774827
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d201774827
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:IFSC Weekly Council Meeting
 LOCATION:FENS 225 Conference Room VP Academic Support
 DTSTART;TZID=America/New_York:20160923T113000
@@ -5874,6 +6252,27 @@ CATEGORIES:Lecture, Seminar, Workshop
 UID:http://uid.trumba.com/event/194935142
 X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
  ent%26eventid%3d194935142
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Capstone Fall 2016 Open House
+LOCATION:CTR Campus Center Atrium
+DTSTART;TZID=America/New_York:20160924T100000
+DTEND;TZID=America/New_York:20160924T180000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-TRUMBA-CUSTOMFIELD;NAME="Event Type";ID=12;TYPE=number:Conference\, Fa
+ ir
+X-TRUMBA-CUSTOMFIELD;NAME="Organization";ID=5323;TYPE=SingleLine:Compute
+ r Science
+X-TRUMBA-CUSTOMFIELD;NAME="Submitter Name";ID=36;TYPE=SingleLine:Eljabir
+ i\, Osama
+X-TRUMBA-CUSTOMFIELD;NAME="Event Name";ID=6143;TYPE=SingleLine:Industry 
+ Presentations
+DTSTAMP:20160822T132012Z
+DESCRIPTION:<p>ccs capstone program open house</p>
+CATEGORIES:Conference, Fair
+UID:http://uid.trumba.com/event/201800073
+X-TRUMBA-LINK:http://r25livepr1.njit.edu/calendar/?trumbaEmbed=view%3dev
+ ent%26eventid%3d201800073
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Womens Cross Country at  Ted Owen Invitational (at CCSU)

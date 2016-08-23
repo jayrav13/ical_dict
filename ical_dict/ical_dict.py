@@ -150,5 +150,5 @@ class iCalDict():
 #
 if __name__ == '__main__':
     # converter = iCalDict('http://25livepub.collegenet.com/calendars/NJIT_EVENTS.ics')
-    converter = iCalDict('events.ics')
+    converter = iCalDict(os.path.dirname(__file__) + '/../examples/events.ics')
     print json.dumps(converter.convert())
