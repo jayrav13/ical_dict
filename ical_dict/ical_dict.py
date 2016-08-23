@@ -41,7 +41,7 @@ class iCalDict():
         if "BEGIN:VEVENT" not in self.data: raise Exception(self.__error_messages("no_events"))
 
         # Filter data by eliminating metadata and extraneous lines.
-        self.data = self.data[ self.data.index("BEGIN:VEVENT") : len(self.data) -  self.data[::-1].index("END:VEVENT") ]
+        self.data = self.data[ self.data.index("BEGIN:VEVENT") : len(self.data) - self.data[::-1].index("END:VEVENT") ]
 
         output = []
 
@@ -51,7 +51,7 @@ class iCalDict():
             output.append(self.__array_to_dict(self.data[ 0 : self.data.index("END:VEVENT") + 1 ]))
             self.data = [value for key, value in enumerate(self.data) if key > self.data.index("END:VEVENT")]
 
-        return output
+        return { "data": output }
 
     ###
     #   __array_to_dict
