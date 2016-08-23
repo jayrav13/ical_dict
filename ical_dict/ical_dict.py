@@ -56,7 +56,8 @@ class iCalDict():
     ###
     #   __map_keys
     #
-    #   If a Dictionary mapping is passed through the constructor, replace all keys accordingly.
+    #   Given a key, check if the __mapping variable contains a mapping. Based on availability,
+    #   return valid key to be used in the output.
     #
     def __map_keys(self, key):
         if key in self.__mapping:
