@@ -54,6 +54,18 @@ class iCalDict():
         return { "data": output }
 
     ###
+    #   __map_keys
+    #
+    #   Given a key, check if the __mapping variable contains a mapping. Based on availability,
+    #   return valid key to be used in the output.
+    #
+    def __map_keys(self, key):
+        if key in self.__mapping:
+            return self.__mapping[key]
+        else:
+            return key
+
+    ###
     #   __array_to_dict
     #
     #   Given a list of .ics lines, return the list as a Dictionary object.
@@ -74,7 +86,7 @@ class iCalDict():
                 # TODO: A key already exists in the output, this would overwrite. Handle.
                 pass
 
-            output[elements[0]] = elements[1]
+            output[self.__map_keys(elements[0])] = elements[1]
 
         return output
 
@@ -149,6 +161,24 @@ class iCalDict():
 #   Testing the above.
 #
 if __name__ == '__main__':
+    mapping = {
+        "DTSTAMP":                              "dt_stamp",
+        "DTSTART;TZID=America/New_York":        "dt_start",
+        "DTEND;TZID=America/New_York":          "dt_end",
+        "SUMMARY":                              "summary",
+        "CATEGORIES":                           "categories",
+        "X-MICROSOFT-CDO-ALLDAYEVENT":          "all_day",
+        "LOCATION":                             "location",
+        "X-TRUMBA-LINK":                        "link_protocol",
+        "UID":                                  "uid",
+        "DESCRIPTION":                          "description",
+
+        "X-TRUMBA-CUSTOMFIELD;NAME=\"Organization\";ID=5323;TYPE=SingleLine":   "organization",
+        "X-TRUMBA-CUSTOMFIELD;NAME=\"Event Type\";ID=12;TYPE=number":           "event_type",
+        "X-TRUMBA-CUSTOMFIELD;NAME=\"Submitter Name\";ID=36;TYPE=SingleLine":   "submitter_name",
+        "X-TRUMBA-CUSTOMFIELD;NAME=\"Event Name\";ID=6143;TYPE=SingleLine":     "event_name"
+    }
+
     # converter = iCalDict('http://25livepub.collegenet.com/calendars/NJIT_EVENTS.ics')
-    converter = iCalDict(os.path.dirname(__file__) + '/../examples/events.ics')
+    converter = iCalDict(os.path.dirname(__file__) + '/../examples/events.ics', mapping)
     print json.dumps(converter.convert())
