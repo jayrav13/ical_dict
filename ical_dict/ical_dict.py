@@ -122,9 +122,9 @@ class iCalDict():
             if len(line) == 0: continue
 
             if line[0] == ' ':
-                output[len(output) - 1] += line
+                output[len(output) - 1] += line.lstrip()
             else:
-                output.append(line.rstrip(" ").lstrip(" "))
+                output.append(line)
 
         return output
 
