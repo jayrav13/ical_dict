@@ -1,5 +1,7 @@
 # ical_dict
 
+[![PyPI version](https://badge.fury.io/py/ical_dict.svg)](https://badge.fury.io/py/ical_dict)
+
 iCalDict is a Python library that converts a Calendar file (.ics) into a Dictionary object in Python.
 
 ### Usage
