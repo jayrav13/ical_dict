@@ -8,7 +8,7 @@ setup(
     author = 'Jay Ravaliya',
     author_email = 'jayrav13@gmail.com',
     url = 'https://github.com/jayrav13/ical_dict',
-    download_url = '', # PENDING: Once a stable build is available and ready for PyPI, a tarball URL will be added here.
+    download_url = 'https://github.com/jayrav13/ical_dict/tarball/0.1',
     keywords = ['calendar', 'ical', 'ics', 'json', 'dictionary', 'python'],
     classifiers = [],
 )
